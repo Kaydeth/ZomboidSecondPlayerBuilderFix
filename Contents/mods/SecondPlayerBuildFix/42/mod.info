@@ -5,5 +5,5 @@ id=SecondPlayerBuildFix
 description=Build 42.8.1 has a bug in the local multiplayer handling for build actions. All build actions initiated by the second player attempt to make the first player execute the action and end up giving experience only to the first player. <LINE> <LINE> This is a small patch that makes sure the player ID is set correctly when a build action is triggered so the second player can build properly and gain experience from building.
 author=Kaydeth
 versionMin=42.8.1
-modversion=1.1.0
+modversion=1.1.1
 url=
