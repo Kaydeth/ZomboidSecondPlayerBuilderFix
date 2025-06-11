@@ -7,7 +7,9 @@ function ISBuildingObject:onActionComplete()
 
 		-- Additional update to actualize the available items
 		if isClient() and ISBuildWindow.instance[self.player] then
+			self.buildPanelLogic:updateFloorContainer();
 			ISBuildWindow.instance[self.player]:updateContainers();
+			--self:updateModData();
 		end
 	end
 end
