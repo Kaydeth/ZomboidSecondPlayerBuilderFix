@@ -1,11 +1,15 @@
 version=1
 id=3494469550
-title=SecondPlayerBuildFix
+title=Second Player Build Fix
 description=Build 42 has a bug in the local multiplayer handling for build actions. All build actions initiated by the second player attempt to make the first player execute the action and end up giving experience only to the first player.
 description=
 description=This is a small patch that makes sure the player ID is set correctly when a build action is triggered so the second player can build properly and gain experience from building.
 description=
 description=Companion Mod:
 description=This subscription includes a companion mod SecondPlayerBuildMenuFix. This mod will allow both players to open and use the Craft and Build menus at the same time. The implementation for this mod is more invasive so it's included seperately in case it needs to be disabled for bugs or compatiblity reasons.
+description=
+description=
+description=Latest Version SecondPlayerBuildFix: 1.1.1
+description=Latest Version SecondPlayerBuildMenuFix: 1.0.2
 tags=Build 42;Building;Interface;Multiplayer;QoL
 visibility=public
