@@ -10,6 +10,6 @@ description=This subscription includes a companion mod SecondPlayerBuildMenuFix.
 description=
 description=
 description=Latest Version SecondPlayerBuildFix: 1.1.1
-description=Latest Version SecondPlayerBuildMenuFix: 1.0.2
+description=Latest Version SecondPlayerBuildMenuFix: 1.0.3
 tags=Build 42;Building;Interface;Multiplayer;QoL
 visibility=public

@@ -25,6 +25,7 @@ function ISEntityUI.CloseWindows()
         return
     end
 
+    ISEntityUI.EnsurePlayers();
     for k,v in pairs(ISEntityUI.players) do
         if v.windows then
             for kk,vv in pairs(v.windows) do
